@@ -1,0 +1,9 @@
+.important .primaryContent{
+	background-image: linear-gradient(to right, rgb(255, 253, 221) 70%, rgb(255, 60, 16) 100%) !important;
+}
+input[type="checkbox"].important-checkbox {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  margin: 0px auto;
+}

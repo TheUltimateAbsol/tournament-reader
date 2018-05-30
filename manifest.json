@@ -1,0 +1,27 @@
+{
+	"name" : "Tournament Reader",
+	"version" : "1.0",
+	"description" : "Analyzes and extracts data of PokeBeach tournament signup posts",
+	"permissions" : ["tabs", "activeTab", "declarativeContent", "storage"],
+	"background": {
+    	"scripts": ["background.js"],
+    	"persistent": false
+    },
+	"page_action": {
+		"default_icon" : {
+			"16" : "images/trophy16.png",
+			"32" : "images/trophy32.png",
+			"48" : "images/trophy48.png",
+			"128" : "images/trophy128.png"
+		},
+		"default_title": "Tournament Reader",
+		"default_popup": "popup.html"
+	},
+	"icons" : {
+		"16" : "images/trophy16.png",
+		"32" : "images/trophy32.png",
+		"48" : "images/trophy48.png",
+		"128" : "images/trophy128.png"
+	},
+	"manifest_version" : 2
+}
